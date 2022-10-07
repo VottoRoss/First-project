@@ -3,11 +3,10 @@
     box-sizing: border-box;
 }
 
-.header {
-    display: block;
-}
-
-body {
-    margin: 0;
-    background-color: darkblue;
+html {
+    font: 10px / 1.4 sans-serif;
+    font-family: 'Roboto',-apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    font-weight: 400;
+    color: #e0e6f0;
+    background-color: #2e86c5;
 }
