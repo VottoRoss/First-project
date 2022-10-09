@@ -8,7 +8,7 @@ html {
     font-family: 'Roboto',-apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
     font-weight: 400;
     color: #e0e6f0;
-    background-color: #2e86c5;
+    background-color: #292e39;
 }
 
 body {
@@ -30,13 +30,15 @@ ul {
 
 .header {
     display: flex;
+    background-color: #313742;
+    color: #959fb4;
 }
 
 nav {
     display: inline-flex;
     width: 1200px;
     height: 65px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
@@ -75,7 +77,7 @@ nav ul li i {
 .account {
     display: inherit;
     margin-top: 23px;
-    margin-left: 154px;
+    margin-left: 197px;
 }
 
 .account span {
@@ -85,5 +87,4 @@ nav ul li i {
 .account a {
     padding: 4px;
 }
-
 
