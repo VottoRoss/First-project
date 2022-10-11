@@ -28,21 +28,21 @@ ul {
 
 /* Header style */
 
-.header li a:visited {
-    color: #2e86c5;
-}
-
 .header {
     display: flex;
     background-color: #313742;
     color: #959fb4;
 }
 
+.header li a:visited {
+    color: #2e86c5;
+}
+
 nav {
     display: inline-flex;
     width: 1200px;
     height: 65px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
@@ -88,7 +88,7 @@ nav ul li div a:nth-child(1) {
 .account {
     display: inherit;
     margin-top: 23px;
-    margin-left: 197px;
+    margin-left: 232px;
 }
 
 .account span {
@@ -99,3 +99,59 @@ nav ul li div a:nth-child(1) {
     padding: 4px;
 }
 
+/* Main styles */
+
+main {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    padding: 20px 0 20px 0;
+    flex-direction: column;
+}
+
+.news {
+    display: inline-flex;
+    background: #313742;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    border-radius: 8px;
+}
+
+.news a {
+    color: #1691e8;
+}
+
+.notice-icon {
+    background: #f443368c;
+    color: #ccbcbc;
+    border-radius: 8px;
+}
+
+.notice-icon i {
+    font-size: 20px;
+    padding: 13px;
+}
+
+.notice-content {
+    padding: 10px 0 10px 10px;
+    color: #959fb4;
+}
+
+.notice-content a:nth-child(2) {
+    margin-left: 812px;
+    font-size: 17px;
+    margin-top: 4px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.notice-content a:hover {
+    text-decoration: underline;
+}
+
+.notice-content a:nth-child(2):hover {
+    opacity: 1;
+    text-decoration: none;
+}
