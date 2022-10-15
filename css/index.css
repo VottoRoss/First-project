@@ -407,3 +407,92 @@ a.user:hover {
     padding: 10px;
     font-size: 12px;
 }
+
+/* Footer style */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color: #bdc6db;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 0 10px 486px;
+}
+
+.page-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul:nth-child(1) li {
+    color: #959fb4;
+    display: inherit;
+}
+
+footer ul:nth-child(1) li:nth-child(1) a {
+    padding: 8px;
+    margin: 6px;
+    border: 1px solid #3f4550;
+}
+
+footer ul:nth-child(1) li:nth-child(2) a {
+    padding: 6px;
+    margin: 6px;
+    border: 1px solid #3f4550;
+}
+
+footer ul:nth-child(1) li:nth-child(1) a:hover, ul:nth-child(1) li:nth-child(2) a:hover {
+    color: #e0e6f0;
+    background-color: #4d5460;
+}
+
+footer ul:nth-child(1) li:nth-child(3) {
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+footer ul:nth-child(1) li div {
+    margin-top: 5px;
+}
+
+a[class$="vk"] {
+    color: #4a76a8;
+}
+
+a[class$="discord"] {
+    color: #7289da;
+}
+
+a[class$="telegram"] {
+    color: #2298d6;
+}
+
+a[class$="youtube"] {
+    color: #f00;
+}
+
+footer ul:nth-child(2) li a {
+    padding: 6px;
+    margin-top: 6px;
+    display: inherit;
+    color: #e0e6f0;
+}
+
+footer ul li a[class="fa-solid fa-arrow-up"] {
+    font-size: 14px;
+}
+
+footer ul li a[class$="rss"] {
+    color: #FFA500 !important;
+    font-size: 15px;
+}
+
+footer ul:nth-child(2) li a:hover {
+    color: #3988bf;
+}
