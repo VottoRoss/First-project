@@ -511,3 +511,33 @@ footer ul li a[class$="rss"] {
 footer ul:nth-child(2) li a:hover {
     color: #3988bf;
 }
+
+.music {
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    max-width: 320px;
+}
+
+audio, figcaption {
+    display: flex;
+}
+
+figure {
+    padding: 10px;
+    margin: 0 0 15px 1570px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+    background-color: #313742;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #1691e8;
+}
+
+figcaption {
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 9px;
+    color: #1691e8;
+}
