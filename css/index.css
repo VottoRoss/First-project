@@ -454,7 +454,7 @@ footer ul:nth-child(1) li:nth-child(2) a {
     border: 1px solid #3f4550;
 }
 
-footer ul:nth-child(1) li:nth-child(1) a:hover, ul:nth-child(1) li:nth-child(2) a:hover {
+.footer .links li:nth-child(1) a:hover, .links li:nth-child(2) a:hover {
     color: #e0e6f0;
     background-color: #4d5460;
 }
