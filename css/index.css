@@ -541,3 +541,18 @@ figcaption {
     margin-left: 9px;
     color: #1691e8;
 }
+
+.signature {
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    max-width: 300px;
+}
+
+.me {
+    display: flex;
+    font-size: 24px;
+    font-family: 'Splash', cursive;
+    color: #1691e8;
+    padding: 0 0 15px 15px;
+}
