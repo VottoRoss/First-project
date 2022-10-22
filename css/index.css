@@ -512,23 +512,22 @@ footer ul:nth-child(2) li a:hover {
     color: #3988bf;
 }
 
-.music {
-    display: flex;
-    position: sticky;
-    bottom: 0;
-    max-width: 320px;
-}
-
 audio, figcaption {
     display: flex;
 }
 
-figure {
+.music {
     padding: 10px;
-    margin: 0 0 15px 1570px;
     border-radius: 10px;
     box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
     background-color: #313742;
+    display:flex;
+    flex-direction: column;
+    max-width: 320px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    margin: 0;
 }
 
 audio::-webkit-media-controls-panel {
@@ -544,15 +543,11 @@ figcaption {
 
 .signature {
     display: flex;
-    position: sticky;
-    bottom: 0;
-    max-width: 300px;
-}
-
-.me {
-    display: flex;
     font-size: 24px;
     font-family: 'Splash', cursive;
     color: #1691e8;
-    padding: 0 0 15px 15px;
+    max-width: 220px;
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
 }
